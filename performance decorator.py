@@ -1,4 +1,8 @@
-#performance decorator.
+# Performance decorator.
+# Demonstration of how to impiment the decorator pattern.
+# The decorator pattern allows one to modify the behaviour of a function.
+
+
 from time import time
 def performance(fn):
   def wrapper(*args, **kwargs):
